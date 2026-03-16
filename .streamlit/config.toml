@@ -1,0 +1,25 @@
+[server]
+headless = true
+port = 8501
+
+[theme]
+base = "dark"
+```
+4. Click **"Commit new file"**
+
+---
+
+## Step 5 — Deploy on Streamlit Community Cloud
+
+1. Go to **share.streamlit.io**
+2. Sign in with your **GitHub account**
+3. Click **"New app"**
+4. Fill in:
+   - **Repository:** `your-username/failure-tracker`
+   - **Branch:** `main`
+   - **Main file path:** `app.py`
+5. Click **"Deploy!"**
+
+It will take about 2–3 minutes to build. You'll see a loading screen, then your app goes live at:
+```
+https://your-username-failure-tracker-app-xxxx.streamlit.app
